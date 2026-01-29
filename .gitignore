@@ -1,23 +1,44 @@
+# --------------------------------------------------
 # Secrets
+# --------------------------------------------------
 *.env
 .env*
 *secret*
 *key*
 *password*
 
+# --------------------------------------------------
 # Logs & outputs
+# --------------------------------------------------
 *.log
 *.tmp
 
+# --------------------------------------------------
 # OS
+# --------------------------------------------------
 .DS_Store
 Thumbs.db
 
 # --------------------------------------------------
-# Local-only practice (do not commit)
+# Terraform (Lane A core tooling)
+# --------------------------------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+crash.log
+
+# --------------------------------------------------
+# Azure local auth/cache
+# --------------------------------------------------
+.azure/
+
+# --------------------------------------------------
+# Out-of-scope / local-only practice (Lane A)
 # --------------------------------------------------
 
-# SOC / detection practice (kept local by design)
+# SOC / detection / monitoring (intentionally excluded)
 kql/
 sentinel/
 attack-simulation/
@@ -33,11 +54,3 @@ vulnerability-management/
 _local/
 scratch/
 experiments/
-
-# Out-of-scope / local-only (Lane A)
-attack-simulation/
-kql/
-sentinel/
-vulnerability-management/
-soc/
-soc-drills/
