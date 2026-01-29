@@ -12,3 +12,32 @@
 # OS
 .DS_Store
 Thumbs.db
+
+# --------------------------------------------------
+# Local-only practice (do not commit)
+# --------------------------------------------------
+
+# SOC / detection practice (kept local by design)
+kql/
+sentinel/
+attack-simulation/
+soc/
+soc-drills/
+telemetry/
+detections/
+
+# Vulnerability / scanning experiments
+vulnerability-management/
+
+# Local scratch / experiments
+_local/
+scratch/
+experiments/
+
+# Out-of-scope / local-only (Lane A)
+attack-simulation/
+kql/
+sentinel/
+vulnerability-management/
+soc/
+soc-drills/
