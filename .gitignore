@@ -20,7 +20,7 @@
 Thumbs.db
 
 # --------------------------------------------------
-# Terraform (Lane A core tooling)
+# Terraform (core tooling)
 # --------------------------------------------------
 .terraform/
 *.tfstate
@@ -35,7 +35,7 @@ crash.log
 .azure/
 
 # --------------------------------------------------
-# Out-of-scope / local-only practice (Lane A)
+# Out-of-scope / local-only practice (public repo intentionally scoped)
 # --------------------------------------------------
 
 # SOC / detection / monitoring (intentionally excluded)
